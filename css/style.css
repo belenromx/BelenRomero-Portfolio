@@ -8,6 +8,7 @@ body {
     font-family: 'Fauna One', serif;
     font-size: 17px;
     line-height: 1.8!important;
+	background-color: #fffdf4;
 }
 html {
     overflow-x: hidden;
@@ -24,6 +25,7 @@ h6 {
     line-height: 1.5em;
     margin-top: 0;
 }
+
 p {
     font-family: 'Fauna One', serif;
     font-weight: 300;
@@ -120,7 +122,7 @@ a:visited {
     border-color: transparent;
 }
 .navbar-default.color-fill {
-    background-color: #fff;
+    background-color: #fffdf4;
     border-color: transparent;
 }
 .btn-nav {
@@ -175,7 +177,7 @@ a:visited {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #fffdf4;
     display: block;
     height: 100%;
     z-index: 9;
@@ -195,7 +197,7 @@ a:visited {
 }
 .item-anchor:hover,
 .item-anchor:focus {
-    color: #ffffff;
+    color: #810330;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
@@ -225,7 +227,8 @@ a:visited {
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border-bottom: 2px solid #222;
+	color: #810330;
+    border-bottom: 2px solid #810330;
 }
 .animated {
     display: block;
@@ -511,7 +514,7 @@ a:visited {
 }
 .portfolio-sorting li a:hover,
 .portfolio-sorting li a.active {
-    border-bottom: 2px solid #222;
+    border-bottom: 2px solid #810330;
 }
 .portfolio-item {
     margin-bottom: 30px;
